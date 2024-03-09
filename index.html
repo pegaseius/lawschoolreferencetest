@@ -3,6 +3,8 @@
 
 <head>
   <p align="center">南京大学法学院毕业论文参考文献排序工具</p>
+  <p>使用方法：将参考文献回车分行输入输入框后，单击排序按钮</p>
+  <p>排序规则：中文文献按作者姓名拼音顺序排列；英文文献按作者姓名首字母顺序排列</p>
   <title>参考文献排序工具</title>
   <style>
     /* 样式表 */
@@ -90,7 +92,7 @@
 <body>
   <div class="container">
     <!-- 输入区域 -->
-    <textarea id="ref-list" placeholder="请在这里输入您的参考文献列表"></textarea>
+    <textarea id="ref-list" placeholder="参考文献列表复制在这里"></textarea>
     <div class="option">
       <button onclick="sortReferences()">排序</button>
       <div>
@@ -101,13 +103,14 @@
     <!-- 输出区域 -->
     <div class="output">
       <label>排序后的参考文献列表：</label>
-      <button onclick="copyText()">一键复制</button>
+      <button onclick="copyText()">快捷复制</button>
       <p id="ref-output"></p>
     </div>
   </div>
 
   <!-- JS脚本 -->
   <script src="script.js"></script>
+  <p align="center">Chollima制作</p>
 </body>
 
 </html>
