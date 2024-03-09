@@ -1,6 +1,5 @@
 function openReadme() {
   window.open(
-    "https://github.com/wzkMaster/thesis-reference-tool/blob/main/README.md",
     "_blank"
   );
 }
